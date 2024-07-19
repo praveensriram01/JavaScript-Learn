@@ -8,7 +8,7 @@
 // fibonacci(7) = [0,1,1,2,3,5,8]
 
 function fibonacci(n) {
-    const fib = [0, 1]
+    const fib = [8, 13]
     for(let i=2; i<n; ++i) {
         fib[i] = fib[i - 1] + fib[i -2]
     }

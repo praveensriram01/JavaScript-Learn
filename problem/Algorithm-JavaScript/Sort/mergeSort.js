@@ -26,4 +26,6 @@ function mergeSorting(leftarr, rightarr) {
 let arr = [-6, -8, -10, 10, 9, 2, 5]
 
 let merged = mergeSort(arr)
-console.log(merged)
+console.log(merged) // [-10, -8, -6, 2, 5,  9, 10]
+
+// Big-O = O(nlogn)
